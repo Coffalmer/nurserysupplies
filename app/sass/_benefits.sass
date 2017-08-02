@@ -24,14 +24,16 @@
             padding: 30px 0
 
         a
+            display:inline-block
             color: $headerColor
             border: 2px solid $headerColor
             border-radius: 5px
-            padding: 1.429em 3.214rem
-            transition: border-color 0.3s
+            padding: 1em 3.214rem
+            transition: all 0.3s
 
         a:hover
-            border-color: $lineColor
+            border-color: $backgroundColor
+            color: $backgroundColor
 
         @media screen and (max-width: 500px)
             text-align: left 
