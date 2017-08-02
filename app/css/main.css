@@ -38,8 +38,30 @@ a {
 .benefits__content a {
   color: #48890a; }
 
+.bottomMenu {
+  border-top: 2px solid #7da83c; }
+  .bottomMenu__content {
+    padding: 15px 5%; }
+    .bottomMenu__content ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      text-align: center; }
+    .bottomMenu__content li {
+      display: inline;
+      padding: 0 1.2rem; }
+    .bottomMenu__content a {
+      color: #7b7b7b;
+      -webkit-transition: color 0.3s;
+      -o-transition: color 0.3s;
+      transition: color 0.3s; }
+    .bottomMenu__content a:hover {
+      color: #8dc705; }
+    @media screen and (max-width: 470px) {
+      .bottomMenu__content li {
+        display: block; } }
+
 .footer {
-  width: 100%;
   background-color: #e4e4e4; }
   .footer__content {
     display: -webkit-box;

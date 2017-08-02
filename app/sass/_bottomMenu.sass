@@ -1,11 +1,26 @@
 .bottomMenu
-
+    border-top: 2px solid $lineColor
 
     &__content
-
+        padding: 15px 5%
 
         ul
+            margin: 0
+            padding: 0
+            list-style-type: none
+            text-align: center
 
         li
+            display: inline
+            padding: 0 1.2rem
 
         a
+            color: $bottomColor
+            transition: color 0.3s
+
+        a:hover
+            color: $buttonsColor
+
+        @media screen and (max-width: 470px)
+            li
+                display: block
