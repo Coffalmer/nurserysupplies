@@ -1,0 +1,65 @@
+input
+    display: none
+
+.header
+    width: 100%
+    background-image: url("../img/mainBackground.png")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+
+    &__content
+        padding: 100px 5% 200px 5%
+        display: flex
+        flex-direction: column
+        flex-wrap: nowrap
+        justify-content: center
+        align-items: center
+
+
+        &-logo
+
+        
+        &-menu
+
+
+        &-brand
+            h1
+                font-size: 4.857em
+                font-weight: 900
+                color: $whiteColor
+                text-shadow: 0px 0px 6px rgba(31, 88, 0, 0.75)
+                text-align: center
+                margin: 0 0 2rem 0
+
+
+        &-about
+            width: 80%
+            background-color: rgba(38, 49, 28, 0.7)
+            border-radius: 5px
+            text-align: center
+
+            h3
+                font-size: 2.429em
+                font-weight: lighter
+                color: $whiteColor
+                padding: 1.5rem 1.5rem 0 1.5rem
+                margin: 0
+
+            p
+                color: $whiteColor
+                padding: 1.5rem
+                margin: 0
+
+        @media screen and (max-width: 900px)
+          
+            &-brand
+                h1
+                    font-size: 3.5em
+            
+            &-about
+                width: 100%
+
+    @media screen and (max-width: 500px)
+        &__content
+             padding: 50px 5% 200px 5%
